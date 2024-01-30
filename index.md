@@ -7,6 +7,7 @@ Responsibilities
 - Deploy production-level deep learning models / services
 - Optimize data pipeline and deployment processes
 - Design / improve / maintain the full MLOps ecosystem
+
 ---
 ## ML Engineer Intern at [Perceptra](https://perceptra.tech/)
 Feb 2022 - Apr 2022 (3 months)
@@ -17,9 +18,10 @@ Feb 2022 - Apr 2022 (3 months)
 - Built and deployed the mammogram services (microservices) with multi-label ensemble models
 - Optimized model inference process of the mammogram services to 3-4x faster
 - Wrote well-detailed documentation and instructions about model deployment and MLOps
+
 ---
 ## AI Engineer Intern at [Obodroid](https://www.obodroid.com/)
-Jun 2021 - Jul 2021 (2 months)
+**Jun 2021 - Jul 2021 (2 months)**
 - Involved in the "Place Recognition" part of the Robot Navigation project
 - Collected data from the real working environments
 - Adapted SuperGlue model to do Visual Place Recognition task
