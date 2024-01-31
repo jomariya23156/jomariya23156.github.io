@@ -50,14 +50,12 @@ Responsibilities
 [![Static Badge](https://img.shields.io/badge/View_on_YouTube-red?style=flat&logo=youtube&labelColor=grey&color=red)](https://youtu.be/00FC_3qZmZc)
 ![YouTube Video Views](https://img.shields.io/youtube/views/00FC_3qZmZc?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2F00FC_3qZmZc)
 
-<div style="text-align: justify">
 Implemented a Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters with FastAPI using WebSocket. (Also, utilizes JavaScript for frontend functionalities). Here are the main features of this app:
 - Replace the webcam background with a selected prepopulated image or one uploaded by the user.
 - Two available models for background segmentation: <b>Mediapipe</b> (default) and <b>'apple/deeplabv3-mobilevit-xx-small' from Hugging Face</b>.
 - Cartoonify webcam stream with two options: <b>OpenCV</b> (Sequence of image processings) and <b>CartoonGAN</b> (Deep learning model).
 - Apply filters to the webcam stream. Available filters include Grayscale, Saturation, Brightness, Contrast.
 - Supports concurrent connections.
-</div>
 
 <center><img src="images/realtime-webcam-bg-replace-add-filters.gif"/></center>
 
@@ -73,10 +71,10 @@ Implemented a Zoom-like feature: Real-time webcam background replacement with a 
 Implemented Flask web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with liveness detection mechanism (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)), for Anti-Spoofting (Others pretending to be the person), built with Convolutional Neural Network. After the login page, a webpage placeholder is also provided for future use.
 </div>
 
-<center><img width=250px height=350px src="images/login_example.jpg"/><img width=447px height=350px src="images/face-recognition-with-liveness-web-login.gif"/></center>
+<center><img src="images/face-login-short-demo.gif"/></center>
 
 ---
-## Multi-Fit: Start-up's MVP
+## EzFit: Start-up's MVP
 
 <b>Pain point:</b> People are bored of exercise and lack motivation  
 <b>Solution:</b> Gamification and Multi-user Empowered by AI  
@@ -100,7 +98,7 @@ Implemented Flask web application login page including face verification (1-to-1
 - Received a grant and advanced to demo day at Startup Thailand League 2021, one of the largest startup competition in Thailand.
 - Finalist at INNO for Change 2021
 
-<center><img width=222px height=480px src="images/multi-fit-mvp.gif"/></center>
+<center><img src="images/ezfit-short-demo-small.gif"/></center>
 
 ---
 <center>© 2024 Ariya Sontrapornpol. Powered by Jekyll and the Minimal Theme.</center>
