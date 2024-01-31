@@ -1,7 +1,7 @@
 # Work Experiences
 ---
 ## Machine Learning Engineer at [Perceptra](https://perceptra.tech/)
-**Jun 2022 - _Present_**  
+<b>Jun 2022 - _Present_</b>  
 Responsibilities
 - Implement, adapt, and improve state-of-the-art neural networks / techniques from academic papers
 - Deploy production-level deep learning models / services
@@ -10,7 +10,7 @@ Responsibilities
 
 ---
 ## ML Engineer Intern at [Perceptra](https://perceptra.tech/)
-**Feb 2022 - Apr 2022 (3 months)**
+<b>Feb 2022 - Apr 2022 (3 months)</b>
 - Performed transfer learning with EfficientNet v2 and further adapted network structure to do tuberculosis multi-label classification
 - Performed hyperparameters tuning on the new tuberculosis classification model
 - Migrated the MLOps platform from MLflow to ClearML for tuberculosis and CXR projects
@@ -21,7 +21,7 @@ Responsibilities
 
 ---
 ## AI Engineer Intern at [Obodroid](https://www.obodroid.com/)
-**Jun 2021 - Jul 2021 (2 months)**
+<b>Jun 2021 - Jul 2021 (2 months)</b>
 - Involved in the "Place Recognition" part of the Robot Navigation project
 - Collected data from the real working environments
 - Adapted SuperGlue model to do Visual Place Recognition task
@@ -38,7 +38,7 @@ Responsibilities
 [![Static Badge](https://img.shields.io/badge/View_on_YouTube-red?style=flat&logo=youtube&labelColor=grey&color=red)](https://youtu.be/NKil4uzmmQc)
 ![YouTube Video Views](https://img.shields.io/youtube/views/NKil4uzmmQc?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2FNKil4uzmmQc)
 
-<div style="text-align: justify">Fully operating on-premises MLOps system tailored for Computer Vision tasks from Data versioning to Model monitoring and drift detection with the concept: **"1 config, 1 command from Jupyter Notebook to serve Millions of users"**.</div>
+<div style="text-align: justify">Fully operating on-premises MLOps system tailored for Computer Vision tasks from Data versioning to Model monitoring and drift detection with the concept: <b>1 config, 1 command from Jupyter Notebook to serve Millions of users"</b>.</div>
 
 <center><img src="images/full-stack-on-prem-cv-mlops.png"/></center>
 
@@ -53,8 +53,8 @@ Responsibilities
 <div style="text-align: justify">
 Implemented a Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters with FastAPI using WebSocket. (Also, utilizes JavaScript for frontend functionalities). Here are the main features of this app:
 - Replace the webcam background with a selected prepopulated image or one uploaded by the user.
-- Two available models for background segmentation: **Mediapipe** (default) and **'apple/deeplabv3-mobilevit-xx-small' from Hugging Face**.
-- Cartoonify webcam stream with two options: **OpenCV** (Sequence of image processings) and **CartoonGAN** (Deep learning model).
+- Two available models for background segmentation: <b>Mediapipe</b> (default) and <b>'apple/deeplabv3-mobilevit-xx-small' from Hugging Face</b>.
+- Cartoonify webcam stream with two options: <b>OpenCV</b> (Sequence of image processings) and <b>CartoonGAN</b> (Deep learning model).
 - Apply filters to the webcam stream. Available filters include Grayscale, Saturation, Brightness, Contrast.
 - Supports concurrent connections.
 </div>
@@ -70,38 +70,37 @@ Implemented a Zoom-like feature: Real-time webcam background replacement with a 
 ![YouTube Video Views](https://img.shields.io/youtube/views/2S-HmiPNViU?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2F2S-HmiPNViU)
 
 <div style="text-align: justify">
-Implemented Flask web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with liveness detection mechanism (to check whether the person detected on the camera is a **REAL** person or **FAKE** (eg. image, video, etc. of that person)), for Anti-Spoofting (Others pretending to be the person), built with Convolutional Neural Network. After the login page, a webpage placeholder is also provided for future use.
+Implemented Flask web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with liveness detection mechanism (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)), for Anti-Spoofting (Others pretending to be the person), built with Convolutional Neural Network. After the login page, a webpage placeholder is also provided for future use.
 </div>
 
-<center><img src="images/login_example.jpg"/><img src="images/face-recognition-with-liveness-web-login.gif"/></center>
+<center><img width=250px height=350px src="images/login_example.jpg"/><img width=447px height=350px src="images/face-recognition-with-liveness-web-login.gif"/></center>
 
 ---
-## Startup's MVP
+## Multi-Fit: Start-up's MVP
 
-<div style="text-align: justify">
-**Pain point:** People are bored of exercise and lack motivation
-**Solution:** Multi-Fit: Gamification and Multi-user Empowered by AI
-**Responsibility in Business Aspect:**
+<b>Pain point:</b> People are bored of exercise and lack motivation  
+<b>Solution:</b> Gamification and Multi-user Empowered by AI  
+<b>Responsibility in Business Aspect:</b> 
 - Led and envisioned the team
 - Built a full Start-Up plan from scratch
 - Built a Financial Model
 - Built a Marketing Plan
 - Built a pitch deck and pitched to many entrepreneurs and investors
 - Did market validation
-**Responsibility in AI / App Development Aspect:**
+
+<b>Responsibility in AI / App Development Aspect:</b>  
 - Led the dev team
 - Analyzed and drew insights with data analytics from a market validation survey
 - Collected and preprocessed data
 - Adapted pre-trained Pose Estimation model and trained Pose Classification models from scratch 
 - Deployed real-time ML models on the mobile device
 - Took care of everything in the gameplay part
-**Awards:**
-- Received a grant and advanced to demo day at Startup Thailand League 2021, one of the largest startup competition in Thailand.
-- Finalist at NSC 2022
-- Finalist at INNO for Change 2021
-</div>
 
-<center><img src="images/multi-fit-mvp.gif"/></center>
+<b>Awards:</b>
+- Received a grant and advanced to demo day at Startup Thailand League 2021, one of the largest startup competition in Thailand.
+- Finalist at INNO for Change 2021
+
+<center><img width=222px height=480px src="images/multi-fit-mvp.gif"/></center>
 
 ---
 <center>© 2024 Ariya Sontrapornpol. Powered by Jekyll and the Minimal Theme.</center>
