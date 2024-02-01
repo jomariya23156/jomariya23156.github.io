@@ -29,6 +29,7 @@ Responsibilities
 - Built a complete pipeline from raw data input to place recognition result
 - Built an end-to-end API to do Visual Place Recognition with SuperGlue and SuperPoints model using FastAPI ([GitHub](https://github.com/jomariya23156/SuperGlue-for-Visual-Place-Recognition))
 
+---
 # Projects
 ---
 ## Full-stack On-Premises MLOps system for Computer Vision
@@ -38,9 +39,11 @@ Responsibilities
 [![Static Badge](https://img.shields.io/badge/View_on_YouTube-red?style=flat&logo=youtube&labelColor=grey&color=red)](https://youtu.be/NKil4uzmmQc)
 ![YouTube Video Views](https://img.shields.io/youtube/views/NKil4uzmmQc?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2FNKil4uzmmQc)
 
+<div style="text-align: justify">
 Fully operating on-premises MLOps system tailored for Computer Vision tasks from Data versioning to Model monitoring and drift detection with the concept: <b>1 config, 1 command from Jupyter Notebook to serve Millions of users"</b>. This system equips you with everything you need, from a development workspace in Jupyter Lab/Notebook to production-level services and it only takes "1 config and 1 command" to run the whole system from building the model to deployment! I've integrated numerous best practices to ensure scalability and reliability while maintaining flexibility. While my primary use case revolves around image classification, this project structure can easily adapt to a wide range of ML/DL developments, even transitioning from on-premises to cloud!
+</div>
 
-**Tool stack:**
+<b>Tool stack:</b>
 - Platform: [Docker](https://www.docker.com/) 
 - Workspace: [Jupyter Lab](https://jupyter.org/)
 - Deep Learning framework: [TensorFlow](https://www.tensorflow.org/)
@@ -63,8 +66,11 @@ Fully operating on-premises MLOps system tailored for Computer Vision tasks from
 [![Static Badge](https://img.shields.io/badge/View_on_YouTube-red?style=flat&logo=youtube&labelColor=grey&color=red)](https://youtu.be/00FC_3qZmZc)
 ![YouTube Video Views](https://img.shields.io/youtube/views/00FC_3qZmZc?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2F00FC_3qZmZc)
 
-A web application with the Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters built with **FastAPI** using **WebSocket**. (Also, utilizes JavaScript for frontend functionalities).  
+<div style="text-align: justify">
+A web application with the Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters built with <b>FastAPI</b> using <b>WebSocket</b> (Also, utilizes JavaScript for frontend functionalities).  
 Here are the main features implemented in this app:
+</div>
+
 - Replace the webcam background with a selected prepopulated image or one uploaded by the user.
 - Two available models for background segmentation: <b>Mediapipe</b> (default) and <b>'apple/deeplabv3-mobilevit-xx-small' from Hugging Face</b>.
 - Cartoonify webcam stream with two options: <b>OpenCV</b> (Sequence of image processings) and <b>CartoonGAN</b> (Deep learning model).
@@ -82,12 +88,15 @@ Here are the main features implemented in this app:
 [![Static Badge](https://img.shields.io/badge/View_on_YouTube-red?style=flat&logo=youtube&labelColor=grey&color=red)](https://youtu.be/2S-HmiPNViU)
 ![YouTube Video Views](https://img.shields.io/youtube/views/2S-HmiPNViU?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2F2S-HmiPNViU)
 
-A web application login page including **face verification** (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with **liveness detection mechanism** (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)) for Anti-Spoofting (Others pretending to be the person). After the login page, a webpage placeholder is also provided for future use.
+<div style="text-align: justify">
+A web application login page including <b>face verification</b> (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with <b>liveness detection mechanism</b> (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)) for Anti-Spoofting (Others pretending to be the person). After the login page, a webpage placeholder is also provided for future use.
+</div>
+
 - Implemented the face liveness detection method proposed in a research paper ([link](https://arxiv.org/pdf/1405.2227.pdf)).
 - Collected data for real and fake images for binary classification.
-- Built and trained the CNN-based liveness model from scratch with **TensorFlow**.
-- Implemented the web application with **Flask** framework.
-- Used **dlib** for face recognition.
+- Built and trained the CNN-based liveness model from scratch with <b>TensorFlow</b>.
+- Implemented the web application with <b>Flask</b> framework.
+- Used <b>dlib</b> for face recognition.
 
 <center><img src="images/face-login-short-demo.gif"/></center>
 
@@ -109,9 +118,9 @@ A web application login page including **face verification** (1-to-1 to verify w
 - Analyzed and drew insights with data analytics from a market validation survey.
 - Collected and preprocessed data for exercise repetition counting.
 - Adapted pre-trained Pose Estimation model and trained Exercise Classification models for classifying and counting the repetition of 7 exercises.
-- Achieved high accuracy across all exercises: **99%** for push-up, **96%** for jumping-jack, **92%** for squat, **91%** for leg-raise, **84%** for lunge, **84%** bicycle-crunch, **72%** for mountain-climber.
-- Optimized and deployed real-time ML models on the mobile device using **TensorFlow** ecosystems. 
-- Built a cross-platform mobile application using **React Native**.
+- Achieved high accuracy across all exercises: <b>99%</b> for push-up, <b>96%</b> for jumping-jack, <b>92%</b> for squat, <b>91%</b> for leg-raise, <b>84%</b> for lunge, <b>84%</b> bicycle-crunch, <b>72%</b> for mountain-climber.
+- Optimized and deployed real-time ML models on the mobile device using <b>TensorFlow</b> ecosystems. 
+- Built a cross-platform mobile application using <b>React Native</b>.
 - Implemented and took care of everything in the main gameplay part.
 
 <b>Awards:</b>
@@ -122,6 +131,7 @@ A web application login page including **face verification** (1-to-1 to verify w
 
 <center><img src="images/ezfit-short-demo-small.gif"/></center>
 
+---
 # Competitions
 There are a lot of competitions I have attended, but here are the ones I've learned the most from and I'm allowed to open-source the work.
 
@@ -132,10 +142,13 @@ There are a lot of competitions I have attended, but here are the ones I've lear
 [![Static Badge](https://img.shields.io/badge/View_on_Devpost-blue?style=flat&logo=devpost&labelColor=grey)](https://devpost.com/software/project-9zuw48p5gokl?ref_content=my-projects-tab&ref_feature=my_projects)
 [![Static Badge](https://img.shields.io/badge/Open_Jupyter_Notebook-blue?logo=Jupyter&labelColor=grey)](notebook_htmls/tmlcc_main_notebook.html)
 
+<div style="text-align: justify">
 TMLCC is a new type of Data Science competition in which competitors need to use Machine Learning techniques in order to build and develop mathematic models with the ability to learn and understand the relationship between structural properties of Metal-Organic frameworks (MOFs) and their Working Capacity. The developed models need to be able to predict this property of other MOFs accurately and precisely.   
 Briefly given a number of features of chemistry properties and molecule files, the goal is to predict the CO2 Working Capacity (how much the MOFs can absorb CO2) in mL/g. Hence this is the regression task.
+</div>
+<br>
 
-We placed in 6th place from over 200+ teams nationwide. Here are the main techniques we applied that made us stand out:
+We placed in <b>6th place from over 200+ teams nationwide</b>. Here are the main techniques we applied that made us stand out:
 - Create many new features from feature engineering with domain expertise in Chemistry subject.
 - Fill missing values in some features with Multivariate Imputation by Chained Equation (MICE) technique and Chemistry formula.
 - Select features using backward elimination along with SHAP values.
