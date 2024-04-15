@@ -11,7 +11,8 @@
 ---
 ## Machine Learning Engineer at [Perceptra](https://perceptra.tech/)
 <b>March 2022 - _Present_</b>  
-Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.  
+Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.
+<br />
 <b>Accomplishments</b>
 - Enhanced existing model serving, achieving <b>3-4x faster</b> inference time by resolving bottlenecks.
 - Designed model serving architectures for <b>14+</b> disease prediction services (averaging <b>85%+ AUC</b>), covering a wide range of model types.
@@ -25,7 +26,8 @@ Deployed machine learning models to 100+ hospitals nationwide, accelerating canc
 ---
 ## AI Engineer Intern at [Obodroid](https://www.obodroid.com/)
 <b>Jun 2021 - Jul 2021 (2 months)</b>  
-Enabled surveillance robots to recognize where they are.  
+Enabled surveillance robots to recognize where they are.
+<br />
 <b>Accomplishments</b>
 - Involved in the "Place Recognition" part of the Robot Navigation project.
 - Collected data from the real working environments.
@@ -47,7 +49,7 @@ Enabled surveillance robots to recognize where they are.
 <div style="text-align: justify">
 "Sales Forecast MLOps at Scale" delivers a full-stack, production-ready solution designed to streamline the entire sales forecasting system – from development and deployment to continuous improvement. It offers flexible deployment options, supporting both on-premises environments (Docker Compose, Kubernetes) and cloud-based setups (Kubernetes, Helm), ensuring adaptability to your infrastructure.
 </div>
-
+<br />
 <b>Key Features</b>
 - <b>Dual-Mode Inference</b>: Supports both batch and online inference modes, providing adaptability to various use cases and real-time prediction needs.
 - <b>Automated Forecast Generation</b>: Airflow DAGs orchestrate weekly model training and batch predictions, with the ability for on-demand retraining based on the latest data.
@@ -116,7 +118,7 @@ Fully operating on-premises MLOps system tailored for Computer Vision tasks from
 <div style="text-align: justify">
 A web application with the Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters built with FastAPI using WebSocket (Also, utilizes JavaScript for frontend functionalities).  
 </div>
-
+<br />
 <b>Key Features</b>
 - <b>Dymanic background</b>: Replace the webcam background with a selected prepopulated image or one uploaded by the user.
 - <b>Background model options</b>: Two available models for background segmentation: [Mediapipe](https://developers.google.com/mediapipe) (default) and 'apple/deeplabv3-mobilevit-xx-small' from [Hugging Face](https://huggingface.co/).
@@ -138,7 +140,7 @@ A web application with the Zoom-like feature: Real-time webcam background replac
 <div style="text-align: justify">
 A web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with <b>liveness detection mechanism</b> (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)) for Anti-Spoofting (Others pretending to be the person). After the login page, a webpage placeholder is also provided for future use.
 </div>
-
+<br />
 <b>Contributions</b>
 - Implemented the face liveness detection method proposed in a research paper ([link](https://arxiv.org/pdf/1405.2227.pdf)).
 - Collected data for real and fake images for binary classification.
@@ -191,7 +193,6 @@ There are a lot of competitions I have attended, but here are the ones I've lear
 TMLCC is a new type of Data Science competition in which competitors need to use Machine Learning techniques in order to build and develop mathematic models with the ability to learn and understand the relationship between structural properties of <b>Metal-Organic frameworks (MOFs) and their Working Capacity</b>. The developed models need to be able to predict this property of other MOFs accurately and precisely.   
 Briefly given a number of features of chemistry properties and molecule files, the goal is to predict the CO2 Working Capacity (how much the MOFs can absorb CO2) in mL/g. Hence this is the regression task.
 </div>
-<br>
 
 We placed in <b>6th place from over 200+ teams nationwide</b>. Here are the main techniques we applied that made us stand out:
 - Create many new features from feature engineering with domain expertise in Chemistry subject.
