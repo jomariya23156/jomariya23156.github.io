@@ -89,8 +89,8 @@ Enabled surveillance robots to recognize where they are.
 <div style="text-align: justify">
 Fully operating on-premises MLOps system tailored for Computer Vision tasks from Data versioning to Model monitoring and drift detection with the concept: <b>1 config, 1 command from Jupyter Notebook to serve Millions of users"</b>. This system equips you with everything you need, from a development workspace in Jupyter Lab/Notebook to production-level services and it only takes "1 config and 1 command" to run the whole system from building the model to deployment! I've integrated numerous best practices to ensure scalability and reliability while maintaining flexibility. While my primary use case revolves around image classification, this project structure can easily adapt to a wide range of ML/DL developments, even transitioning from on-premises to cloud!
 </div>
-
-<b>Tools / Technologies</b>
+  
+### Tools / Technologies
 - Platform: [Docker](https://www.docker.com/) 
 - Workspace: [Jupyter Lab](https://jupyter.org/)
 - Deep Learning framework: [TensorFlow](https://www.tensorflow.org/)
