@@ -11,7 +11,7 @@
 ---
 ## Machine Learning Engineer at [Perceptra](https://perceptra.tech/)
 <b>March 2022 - _Present_</b>  
-Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.
+Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.<br />
 <br />
 <b>Accomplishments</b>
 - Enhanced existing model serving, achieving <b>3-4x faster</b> inference time by resolving bottlenecks.
@@ -26,7 +26,7 @@ Deployed machine learning models to 100+ hospitals nationwide, accelerating canc
 ---
 ## AI Engineer Intern at [Obodroid](https://www.obodroid.com/)
 <b>Jun 2021 - Jul 2021 (2 months)</b>  
-Enabled surveillance robots to recognize where they are.
+Enabled surveillance robots to recognize where they are.<br />
 <br />
 <b>Accomplishments</b>
 - Involved in the "Place Recognition" part of the Robot Navigation project.
