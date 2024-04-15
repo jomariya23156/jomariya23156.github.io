@@ -10,26 +10,26 @@
 # Work Experience
 ---
 ## Machine Learning Engineer at [Perceptra](https://perceptra.tech/)
-<b>March 2022 - _Present_</b>
+<b>March 2022 - _Present_</b>  
 Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.  
-Accomplishments:
-- Enhanced existing model serving, achieving 3-4x faster inference time by resolving bottlenecks.
-- Designed model serving architectures for 14+ disease prediction services (averaging 85%+ AUC), covering a wide range of model types.
-- Revised Docker-based ML platform and infrastructure for 35% smaller image size and 3x faster builds.
+<b>Accomplishments</b>
+- Enhanced existing model serving, achieving <b>3-4x faster</b> inference time by resolving bottlenecks.
+- Designed model serving architectures for <b>14+</b> disease prediction services (averaging <b>85%+ AUC</b>), covering a wide range of model types.
+- Revised Docker-based ML platform and infrastructure for <b>35% smaller</b> image size and <b>3x faster</b> builds.
 - Streamlined ML workflow under strict data privacy restrictions, boosting team efficiency and system reliability.
-- Optimized CICD pipelines with Gitlab CI, automating testing, builds, and deployment resulting in faster deployment times and eliminating manual work.
-- Developed a YOLOv7 model to identify artifacts in mammogram images, achieving 83% mAP@0.5. This enabled dataset cleansing for improved downstream model performance.
-- Developed outlier detection models and pipelines, purging 1% of low-quality data; boosted AUC by 1.7%, sensitivity by 1.6%, and specificity by 2.5% across diseases.
-- Introduced MLOps best practices, including data versioning (DvC) and drift detection (Evidently, alibi), and translated leading-edge academic research into production-ready solutions.
+- Optimized CICD pipelines with [Gitlab CI](https://docs.gitlab.com/ee/ci/), automating testing, builds, and deployment resulting in faster deployment times and eliminating manual work.
+- Developed a [YOLOv7](https://github.com/WongKinYiu/yolov7) model to identify artifacts in mammogram images, achieving <b>83% mAP@0.5</b>. This enabled dataset cleansing for improved downstream model performance.
+- Developed outlier detection models and pipelines, purging 1% of low-quality data; boosted AUC by <b>1.7%</b>, sensitivity by <b>1.6%</b>, and specificity by <b>2.5%</b> across diseases.
+- Introduced MLOps best practices, including data versioning ([DvC](https://dvc.org/)) and drift detection ([Evidently](https://www.evidentlyai.com/), [alibi](https://docs.seldon.io/projects/alibi-detect/en/stable/index.html)), and translated leading-edge academic research into production-ready solutions.
 
 ---
 ## AI Engineer Intern at [Obodroid](https://www.obodroid.com/)
 <b>Jun 2021 - Jul 2021 (2 months)</b>  
 Enabled surveillance robots to recognize where they are.  
-Accomplishments:
+<b>Accomplishments</b>
 - Involved in the "Place Recognition" part of the Robot Navigation project.
 - Collected data from the real working environments.
-- Adapted SuperGlue model to do Visual Place Recognition task.
+- Adapted [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork) model to do Visual Place Recognition task.
 - Implemented a lot of utility files for images/videos processing and running inference.
 - Built a complete pipeline from raw data input to place recognition result.
 - Built an end-to-end API to do Visual Place Recognition with SuperGlue and SuperPoints model using FastAPI. ([GitHub](https://github.com/jomariya23156/SuperGlue-for-Visual-Place-Recognition))
@@ -114,16 +114,16 @@ Fully operating on-premises MLOps system tailored for Computer Vision tasks from
 ![YouTube Video Views](https://img.shields.io/youtube/views/00FC_3qZmZc?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2F00FC_3qZmZc)
 
 <div style="text-align: justify">
-A web application with the Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters built with <b>FastAPI</b> using <b>WebSocket</b> (Also, utilizes JavaScript for frontend functionalities).  
+A web application with the Zoom-like feature: Real-time webcam background replacement with a Web UI + Cartoonification + Image filters built with FastAPI using WebSocket (Also, utilizes JavaScript for frontend functionalities).  
 </div>
 
 <b>Key Features</b>
 - <b>Dymanic background</b>: Replace the webcam background with a selected prepopulated image or one uploaded by the user.
-- <b>Background model options</b>: Two available models for background segmentation: <b>Mediapipe</b> (default) and <b>'apple/deeplabv3-mobilevit-xx-small' from Hugging Face</b>.
-- <b>Cartoonification</b>: Cartoonify webcam stream with two options: <b>OpenCV</b> (Sequence of image processings) and <b>CartoonGAN</b> (Deep learning model).
+- <b>Background model options</b>: Two available models for background segmentation: [Mediapipe](https://developers.google.com/mediapipe) (default) and 'apple/deeplabv3-mobilevit-xx-small' from [Hugging Face](https://huggingface.co/).
+- <b>Cartoonification</b>: Cartoonify webcam stream with two options: [OpenCV](https://opencv.org/) (Sequence of image processings) and [CartoonGAN](https://www.kaggle.com/models/spsayakpaul/cartoongan/) (Deep learning model).
 - <b>Image filters</b>: Apply filters to the webcam stream. Available filters include Grayscale, Saturation, Brightness, Contrast.
 - <b>Reliability</b>: Supports concurrent connections.
-- <b>Docker-based</b>: The entire app is <b>dockerized</b>.
+- <b>Docker-based</b>: The entire app is dockerized.
 
 <center><img src="images/realtime-webcam-bg-replace-add-filters.gif"/></center>
 
@@ -136,15 +136,15 @@ A web application with the Zoom-like feature: Real-time webcam background replac
 ![YouTube Video Views](https://img.shields.io/youtube/views/2S-HmiPNViU?style=flat&logo=youtube&link=https%3A%2F%2Fyoutu.be%2F2S-HmiPNViU)
 
 <div style="text-align: justify">
-A web application login page including <b>face verification</b> (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with <b>liveness detection mechanism</b> (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)) for Anti-Spoofting (Others pretending to be the person). After the login page, a webpage placeholder is also provided for future use.
+A web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with <b>liveness detection mechanism</b> (to check whether the person detected on the camera is a <b>REAL</b> person or <b>FAKE</b> (eg. image, video, etc. of that person)) for Anti-Spoofting (Others pretending to be the person). After the login page, a webpage placeholder is also provided for future use.
 </div>
 
-<b>Contributions:</b>
+<b>Contributions</b>
 - Implemented the face liveness detection method proposed in a research paper ([link](https://arxiv.org/pdf/1405.2227.pdf)).
 - Collected data for real and fake images for binary classification.
-- Built and trained the CNN-based liveness model from scratch with <b>TensorFlow</b>.
-- Implemented the web application with <b>Flask</b> framework.
-- Used <b>dlib</b> for face recognition.
+- Built and trained the CNN-based liveness model from scratch with [TensorFlow](https://www.tensorflow.org/).
+- Implemented the web application with [Flask](https://flask.palletsprojects.com/) framework.
+- Used [dlib](http://dlib.net/) for face recognition.
 
 <center><img src="images/face-login-short-demo.gif"/></center>
 
@@ -164,15 +164,15 @@ A web application login page including <b>face verification</b> (1-to-1 to verif
 - Collected and preprocessed data for exercise repetition counting.
 - Adapted pre-trained Pose Estimation model and trained Exercise Classification models for classifying and counting the repetition of 7 exercises.
 - Achieved high accuracy across all exercises: <b>99%</b> for push-up, <b>96%</b> for jumping-jack, <b>92%</b> for squat, <b>91%</b> for leg-raise, <b>84%</b> for lunge, <b>84%</b> bicycle-crunch, <b>72%</b> for mountain-climber.
-- Optimized and deployed real-time ML models on the mobile device using <b>TensorFlow</b> ecosystems.
-- Built a cross-platform mobile application using <b>React Native</b>.
+- Optimized and deployed real-time ML models on the mobile device using [TensorFlow](https://www.tensorflow.org/) ecosystems.
+- Built a cross-platform mobile application using [React Native](https://reactnative.dev/).
 - Implemented and took care of everything in the main gameplay part.
 
-<b>Awards:</b>
+<b>Awards</b>:
 - Received a grant and advanced to demo day at Startup Thailand League 2021, one of the largest startup competitions in Thailand.
 - Finalist at INNO for Change 2021, a competition organized by one of the top-tier business universities in Thailand.
 
-<b>Main tools:</b> React Native, Expo, Firebase, TensorFlow, Tensorflow Lite, TensorFlowJS, Mediapipe
+<b>Main tools</b>: React Native, Expo, Firebase, TensorFlow, Tensorflow Lite, TensorFlowJS, Mediapipe
 
 <center><img src="images/ezfit-short-demo-small.gif"/></center>
 
@@ -188,7 +188,7 @@ There are a lot of competitions I have attended, but here are the ones I've lear
 [![Static Badge](https://img.shields.io/badge/Open_Jupyter_Notebook-blue?logo=Jupyter&labelColor=grey)](notebook_htmls/tmlcc_main_notebook.html)
 
 <div style="text-align: justify">
-TMLCC is a new type of Data Science competition in which competitors need to use Machine Learning techniques in order to build and develop mathematic models with the ability to learn and understand the relationship between structural properties of Metal-Organic frameworks (MOFs) and their Working Capacity. The developed models need to be able to predict this property of other MOFs accurately and precisely.   
+TMLCC is a new type of Data Science competition in which competitors need to use Machine Learning techniques in order to build and develop mathematic models with the ability to learn and understand the relationship between structural properties of <b>Metal-Organic frameworks (MOFs) and their Working Capacity</b>. The developed models need to be able to predict this property of other MOFs accurately and precisely.   
 Briefly given a number of features of chemistry properties and molecule files, the goal is to predict the CO2 Working Capacity (how much the MOFs can absorb CO2) in mL/g. Hence this is the regression task.
 </div>
 <br>
@@ -196,10 +196,10 @@ Briefly given a number of features of chemistry properties and molecule files, t
 We placed in <b>6th place from over 200+ teams nationwide</b>. Here are the main techniques we applied that made us stand out:
 - Create many new features from feature engineering with domain expertise in Chemistry subject.
 - Fill missing values in some features with Multivariate Imputation by Chained Equation (MICE) technique and Chemistry formula.
-- Select features using backward elimination along with SHAP values.
-- Do hyperparameters tuning with Optuna.
+- Select features using backward elimination along with [SHAP](https://shap.readthedocs.io/en/latest/) values.
+- Do hyperparameters tuning with [Optuna](https://optuna.org/).
 - Use [DeepInsight](https://github.com/alok-ai-lab/DeepInsight) to transform tabular data into images and train a downstream CNN model.
-- Use the trained CNN as a feature extractor to extract more features and append them to train along with other original features with LightGBM. This gave us the best standalone model! 
+- Use the trained CNN as a feature extractor to extract more features and append them to train along with other original features with [LightGBM](https://lightgbm.readthedocs.io/en/stable/). This gave us the best standalone model! 
 - Ensemble models with a weighted average strategy by giving higher weight to the results from more accurate models.
 
 <center><img src="images/tmlcc_preview.png"/></center>
