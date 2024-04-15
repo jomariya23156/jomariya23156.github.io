@@ -48,6 +48,7 @@ Enabled surveillance robots to recognize where they are.
 "Sales Forecast MLOps at Scale" delivers a full-stack, production-ready solution designed to streamline the entire sales forecasting system – from development and deployment to continuous improvement. It offers flexible deployment options, supporting both on-premises environments (Docker Compose, Kubernetes) and cloud-based setups (Kubernetes, Helm), ensuring adaptability to your infrastructure.
 </div>
 
+
 <b>Key Features</b>
 - <b>Dual-Mode Inference</b>: Supports both batch and online inference modes, providing adaptability to various use cases and real-time prediction needs.
 - <b>Automated Forecast Generation</b>: Airflow DAGs orchestrate weekly model training and batch predictions, with the ability for on-demand retraining based on the latest data.
@@ -89,7 +90,8 @@ Enabled surveillance robots to recognize where they are.
 <div style="text-align: justify">
 Fully operating on-premises MLOps system tailored for Computer Vision tasks from Data versioning to Model monitoring and drift detection with the concept: <b>1 config, 1 command from Jupyter Notebook to serve Millions of users"</b>. This system equips you with everything you need, from a development workspace in Jupyter Lab/Notebook to production-level services and it only takes "1 config and 1 command" to run the whole system from building the model to deployment! I've integrated numerous best practices to ensure scalability and reliability while maintaining flexibility. While my primary use case revolves around image classification, this project structure can easily adapt to a wide range of ML/DL developments, even transitioning from on-premises to cloud!
 </div>
-  
+
+
 ### Tools / Technologies
 - Platform: [Docker](https://www.docker.com/) 
 - Workspace: [Jupyter Lab](https://jupyter.org/)
