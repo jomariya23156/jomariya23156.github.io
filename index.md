@@ -1,6 +1,6 @@
 # Skills
 ---
-- <b>Programming languages</b>: Python, SQL, JavaScripts, C++, C
+- <b>Programming languages</b>: Python, SQL, JavaScript, C++, C
 - <b>MLOps/DevOps</b>: Docker, Kubernetes, Helm, MLflow, ClearML, Git, DvC, Airflow, Prefect, GitHub Actions, Gitlab CI, FastAPI, Flask, Gunicorn, Nginx, Grafana, Prometheus, Evidently, GCP, AWS
 - <b>Machine Learning</b>: TensorFlow, Keras, PyTorch, Scikit-learn, Prophet, spaCy
 - <b>Other</b>: LangChain, Kafka, Ray, Spark, Streamlit, OpenCV, Postgres, pytest, HTML, CSS, React
