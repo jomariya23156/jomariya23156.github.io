@@ -151,7 +151,7 @@ A web application login page including face verification (1-to-1 to verify wheth
 <center><img src="images/face-login-short-demo.gif"/></center>
 
 ---
-## EzFit: Startup's MVP
+## EzFit: Startup MVP
 
 <b>Pain point</b>: People are bored of exercise and lack motivation.  
 <b>Solution</b>: Gamification and Multi-user Empowered by AI.  
