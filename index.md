@@ -3,14 +3,14 @@
 - <b>Programming languages</b>: Python, SQL, JavaScript, C++, C
 - <b>MLOps/DevOps</b>: Docker, Kubernetes, Helm, MLflow, ClearML, Git, DvC, Airflow, Prefect, GitHub Actions, Gitlab CI, FastAPI, Flask, Gunicorn, Nginx, Grafana, Prometheus, Evidently, GCP, AWS
 - <b>Machine Learning</b>: TensorFlow, Keras, PyTorch, Scikit-learn, Prophet, spaCy
-- <b>Other</b>: LangChain, Kafka, Ray, Spark, Streamlit, OpenCV, Postgres, pytest, HTML, CSS, React
+- <b>Other</b>: NLP, LangChain, Kafka, Ray, Spark, Streamlit, OpenCV, Postgres, pytest, HTML, CSS, React
 - <b>Expertise</b>: Computer Vision, Medical Imaging, ML System Design, ML Solution Architecture
 
 ---
 # Work Experience
 ---
 ## Machine Learning Engineer at [Perceptra](https://perceptra.tech/)
-<b>March 2022 - _Present_</b>  
+<b>February 2022 - _Present_</b>  
 Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.<br />
 <br />
 <b>Accomplishments</b>
