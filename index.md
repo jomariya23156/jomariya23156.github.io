@@ -10,7 +10,7 @@
 # Work Experience
 ---
 ## Machine Learning Engineer at [Perceptra](https://perceptra.tech/)
-<b>February 2022 - _Present_</b>  
+<b>Feb 2022 - Jul 2024 (2 years and 6 months)</b>  
 Deployed machine learning models to 100+ hospitals nationwide, accelerating cancer detection, to save lives.<br />
 <br />
 <b>Accomplishments</b>
